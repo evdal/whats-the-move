@@ -1,2 +1,0 @@
-)]}'
-{"version":3,"file":"generated.css","sources":["wtm.css"],"names":[],"mappings":"AACA,8BAA8B;;AAC9B;EACC,YAAW;EAAC,kBAAiB;EAAC,iBAAgB;;;AAE/C;EAAE,uBAAsB","sourcesContent":["\n/* CSS declarations go here */\nbody {\n\tcolor:white;font-family:arial;font:Arial Black;\n}\n*{background-color:black;}\n\n"]}
