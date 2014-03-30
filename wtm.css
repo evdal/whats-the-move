@@ -1,1 +1,6 @@
-/* CSS declarations go here */
+body{
+	color:white;font-family:arial black;
+}
+*{
+	background-color:gray;
+}
