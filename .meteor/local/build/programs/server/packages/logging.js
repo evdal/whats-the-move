@@ -12,7 +12,7 @@ var Log;
 
 /////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                     //
-// packages\logging\logging.js                                                         //
+// packages/logging/logging.js                                                         //
 //                                                                                     //
 /////////////////////////////////////////////////////////////////////////////////////////
                                                                                        //
@@ -65,7 +65,7 @@ var LEVEL_COLORS = {                                                            
   error: 'red'                                                                         // 47
 };                                                                                     // 48
                                                                                        // 49
-var META_COLOR = 'cyan'; // 'blue'; Dark blue is hard to see on black consoles         // 50
+var META_COLOR = 'blue';                                                               // 50
                                                                                        // 51
 // XXX package                                                                         // 52
 var RESTRICTED_KEYS = ['time', 'timeInexact', 'level', 'file', 'line',                 // 53

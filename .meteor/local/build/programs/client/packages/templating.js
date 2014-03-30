@@ -30,7 +30,7 @@ var Template;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                                    //
-// packages\templating\global_template_object.js                                                                      //
+// packages/templating/global_template_object.js                                                                      //
 //                                                                                                                    //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                                                                                       //
@@ -62,4 +62,4 @@ Package.templating = {
 
 })();
 
-//# sourceMappingURL=d7b36fa11d2e2cf682c11bdb54a636651cfcee98.map
+//# sourceMappingURL=b36d51fd34724d5d501d8557cd9f846874d95aef.map

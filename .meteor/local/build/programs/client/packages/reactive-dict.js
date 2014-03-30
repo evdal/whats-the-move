@@ -30,7 +30,7 @@ var ReactiveDict;
 
 //////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                      //
-// packages\reactive-dict\reactive-dict.js                                              //
+// packages/reactive-dict/reactive-dict.js                                              //
 //                                                                                      //
 //////////////////////////////////////////////////////////////////////////////////////////
                                                                                         //
@@ -171,4 +171,4 @@ Package['reactive-dict'] = {
 
 })();
 
-//# sourceMappingURL=67bdd287359655dcfaabd5c7a231ca9ab325ffd9.map
+//# sourceMappingURL=22667928acc72f619ce81e7ac1e35def1ba9e0ae.map

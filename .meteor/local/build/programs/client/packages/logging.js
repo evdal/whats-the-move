@@ -29,7 +29,7 @@ var Log;
 
 /////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                     //
-// packages\logging\logging.js                                                         //
+// packages/logging/logging.js                                                         //
 //                                                                                     //
 /////////////////////////////////////////////////////////////////////////////////////////
                                                                                        //
@@ -82,7 +82,7 @@ var LEVEL_COLORS = {                                                            
   error: 'red'                                                                         // 47
 };                                                                                     // 48
                                                                                        // 49
-var META_COLOR = 'cyan'; // 'blue'; Dark blue is hard to see on black consoles         // 50
+var META_COLOR = 'blue';                                                               // 50
                                                                                        // 51
 // XXX package                                                                         // 52
 var RESTRICTED_KEYS = ['time', 'timeInexact', 'level', 'file', 'line',                 // 53
@@ -321,4 +321,4 @@ Package.logging = {
 
 })();
 
-//# sourceMappingURL=24ce24caed3f9c93e473cc207e35bc826d6e2767.map
+//# sourceMappingURL=0de00019cf57ae305903f15baf5dc8e10f973ded.map

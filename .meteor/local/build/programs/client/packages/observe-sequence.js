@@ -30,7 +30,7 @@ var ObserveSequence, id;
 
 //////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                      //
-// packages\observe-sequence\observe_sequence.js                                        //
+// packages/observe-sequence/observe_sequence.js                                        //
 //                                                                                      //
 //////////////////////////////////////////////////////////////////////////////////////////
                                                                                         //
@@ -317,4 +317,4 @@ Package['observe-sequence'] = {
 
 })();
 
-//# sourceMappingURL=74cbd85cc33475add5d2e4836ccd8319fb715d91.map
+//# sourceMappingURL=935ca00b8c9fc8b3868a14a62fd05b42b7b871bc.map

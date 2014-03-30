@@ -30,7 +30,7 @@ var Autoupdate;
 
 ////////////////////////////////////////////////////////////////////////////////////
 //                                                                                //
-// packages\autoupdate\autoupdate_client.js                                       //
+// packages/autoupdate/autoupdate_client.js                                       //
 //                                                                                //
 ////////////////////////////////////////////////////////////////////////////////////
                                                                                   //
@@ -138,4 +138,4 @@ Package.autoupdate = {
 
 })();
 
-//# sourceMappingURL=37ef32caf629db77bfb558e6357dfd37b8d46c1f.map
+//# sourceMappingURL=85a69577c7e94226061fb2c886f23080a9163712.map

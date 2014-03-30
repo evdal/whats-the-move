@@ -24,7 +24,7 @@ var MongoInternals, MongoTest, MongoConnection, CursorDescription, Cursor, liste
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                     //
-// packages\mongo-livedata\mongo_driver.js                                                             //
+// packages/mongo-livedata/mongo_driver.js                                                             //
 //                                                                                                     //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                                                                        //
@@ -1195,7 +1195,7 @@ MongoInternals.NpmModule = MongoDB;                                             
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                     //
-// packages\mongo-livedata\oplog_tailing.js                                                            //
+// packages/mongo-livedata/oplog_tailing.js                                                            //
 //                                                                                                     //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                                                                        //
@@ -1435,7 +1435,7 @@ _.extend(OplogHandle.prototype, {                                               
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                     //
-// packages\mongo-livedata\observe_multiplex.js                                                        //
+// packages/mongo-livedata/observe_multiplex.js                                                        //
 //                                                                                                     //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                                                                        //
@@ -1671,7 +1671,7 @@ ObserveHandle.prototype.stop = function () {                                    
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                     //
-// packages\mongo-livedata\doc_fetcher.js                                                              //
+// packages/mongo-livedata/doc_fetcher.js                                                              //
 //                                                                                                     //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                                                                        //
@@ -1753,7 +1753,7 @@ MongoTest.DocFetcher = DocFetcher;                                              
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                     //
-// packages\mongo-livedata\polling_observe_driver.js                                                   //
+// packages/mongo-livedata/polling_observe_driver.js                                                   //
 //                                                                                                     //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                                                                        //
@@ -1949,7 +1949,7 @@ _.extend(PollingObserveDriver.prototype, {                                      
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                     //
-// packages\mongo-livedata\oplog_observe_driver.js                                                     //
+// packages/mongo-livedata/oplog_observe_driver.js                                                     //
 //                                                                                                     //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                                                                        //
@@ -2816,7 +2816,7 @@ MongoTest.OplogObserveDriver = OplogObserveDriver;                              
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                     //
-// packages\mongo-livedata\local_collection_driver.js                                                  //
+// packages/mongo-livedata/local_collection_driver.js                                                  //
 //                                                                                                     //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                                                                        //
@@ -2863,7 +2863,7 @@ LocalCollectionDriver = new LocalCollectionDriver;                              
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                     //
-// packages\mongo-livedata\remote_collection_driver.js                                                 //
+// packages/mongo-livedata/remote_collection_driver.js                                                 //
 //                                                                                                     //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                                                                        //
@@ -2926,7 +2926,7 @@ MongoInternals.defaultRemoteCollectionDriver = _.once(function () {             
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                     //
-// packages\mongo-livedata\collection.js                                                               //
+// packages/mongo-livedata/collection.js                                                               //
 //                                                                                                     //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                                                                        //

@@ -30,7 +30,7 @@ var Session;
 
 /////////////////////////////////////////////////////////////////////////
 //                                                                     //
-// packages\session\session.js                                         //
+// packages/session/session.js                                         //
 //                                                                     //
 /////////////////////////////////////////////////////////////////////////
                                                                        //
@@ -63,4 +63,4 @@ Package.session = {
 
 })();
 
-//# sourceMappingURL=c64d0f7a0d999494bc0f62f618138afca45fde4b.map
+//# sourceMappingURL=5bcd2d86431dc10d5f4be0910cb6567342e1aaf6.map

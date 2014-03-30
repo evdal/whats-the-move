@@ -38,7 +38,7 @@ var LocalCollectionDriver;
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                     //
-// packages\mongo-livedata\local_collection_driver.js                                                  //
+// packages/mongo-livedata/local_collection_driver.js                                                  //
 //                                                                                                     //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                                                                        //
@@ -85,7 +85,7 @@ LocalCollectionDriver = new LocalCollectionDriver;                              
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                     //
-// packages\mongo-livedata\collection.js                                                               //
+// packages/mongo-livedata/collection.js                                                               //
 //                                                                                                     //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                                                                        //
@@ -980,4 +980,4 @@ Package['mongo-livedata'] = {};
 
 })();
 
-//# sourceMappingURL=938e1d306fdd097a2b4351fcad8a92feec967984.map
+//# sourceMappingURL=cf17a2975aa7445f0db2377c2af07e5efc240958.map

@@ -28,7 +28,7 @@ var WebApp;
 
 ///////////////////////////////////////////////////////////////////////
 //                                                                   //
-// packages\webapp\webapp_client.js                                  //
+// packages/webapp/webapp_client.js                                  //
 //                                                                   //
 ///////////////////////////////////////////////////////////////////////
                                                                      //
@@ -61,4 +61,4 @@ Package.webapp = {
 
 })();
 
-//# sourceMappingURL=518d7ef777514d845a80811c7eb850308bbd9c71.map
+//# sourceMappingURL=e1be090051b82f046484dccc2de7d747e50c7328.map
