@@ -1,3 +1,5 @@
+
+
 if (Meteor.isClient) {
   Template.hello.greeting = function () {
     return "Welcome to What's the Move.";

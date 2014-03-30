@@ -4,14 +4,42 @@
   	<title>
 		<h3>What's The Move?</h3>
 	</title>
-	<script>
+<script>
 function myFunction()
 {
+
+
 alert("Welcome to whats-the-move!");
 }
+function jumptohomepage()
+{
+window.location.href = "homepage.html";
+}
+
+
 </script>
 
+<meata http-equiv="refresh" content="5">
+
+
+	<style type="text/css">
+body {background-color:#99FF00;}
+</style>
 </head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <body>
 	
@@ -19,8 +47,23 @@ alert("Welcome to whats-the-move!");
 {{>header}}  
 {{>EntryFields}}
 {{LeftSidebar}}
-<button onclick="myFunction()">Try it</button>
+<button onclick="jumptohomepage()">Submit!</button>
+<INPUT name="pclog" type="button" value="Bing Search" onClick="location.href='http://www.bing.com'">
 </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <template name="hello">
