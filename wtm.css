@@ -5,21 +5,18 @@ body {color:white;font-family:arial;font:Arial Black;font-size:50px;}
 
 h1 {color:white;font-family:arial;font:Arial Black;}
 div{background-color:white;}
-<<<<<<< HEAD
 
-=======
 #link{
 	border-color:red;
 	height:25px;}
->>>>>>> 6946718f878336cc1ee23d79bae552b06822831c
 h1 {color:black;font-family:arial;font:Arial Black;}
 div{background-color:transparent; border:4px;}
 #link{
-	/* border-color:red;*/
-	height:150px;
-	width:250px;
+	/*border-color:blue;*/
+	height:130px;
+	width:200px;
 	background-color:pink;
-	/* border-style:solid; */
+	/*border-style:solid;*/
 	border-radius:20px;
 	margin:auto;
 	text-align:center;	
@@ -30,6 +27,8 @@ a{
 }
 button{
 	color:white;font-family:arial;font:Arial Black;
+	height:130px;
+	width:200px;
 }
 
 
