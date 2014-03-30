@@ -3,7 +3,7 @@
 </head>
 
 <body>
-  {{> header}}
+  {{> EntryFields}}
  
   <p>{{> Username}}</p>
 
@@ -23,7 +23,8 @@
 <template name="header">
 	<h1> What's the Move? </h1>
 </template>
-<template name = "EntryFields">
+
+<template name="EntryFields">
 	<form> 
 		Name: <input type=text" name="Name"><br>
 		Event Name: <input type="text" name="EventName"><br>
