@@ -1,5 +1,9 @@
+
 <head>
   <title>WHAT'S THE MOVE</title>
+  	<title>
+		<h3>What's The Move?</h3>
+	</title>
 </head>
 
 <body>
@@ -20,11 +24,13 @@
 
 <template name="EntryFields">
 	<form> 
-		Name: <input type=text name="Name"><br>
-		Event Name: <input type="text" name="EventName"><br>
-		Event Description: <input type="text" name="EventDescription"><br>
-		Start Time: <input type="text" name="StartTime"><br>
-		Stop Time: <input type="text" name="StopTime">
+		<table>
+		<tr><td>Name:</td><td> <input type=text name="Name"><br></td></tr>
+		<tr><td>Event Name:</td><td> <input type="text" name="EventName"></td><br></tr>
+		<tr><td>Event Description:</td><td> <input type="text" name="EventDescription"></td><br></tr>
+		<tr><td>Start Time:</td><td> <input type="text" name="StartTime"></td></tr><br>
+		<tr><td>Stop Time:</td><td> <input type="text" name="StopTime"></td></tr>
+	</table>
 	</form>
 </template>
 <template name="LeftSidebar">
