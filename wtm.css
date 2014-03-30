@@ -46,4 +46,9 @@ div.transbox
 table{
 	color:black;
 }
+input{
+	height:75px;
+	width:500px;
+}
+
 
