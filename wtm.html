@@ -4,13 +4,24 @@
   	<title>
 		<h3>What's The Move?</h3>
 	</title>
+	<script>
+function myFunction()
+{
+alert("Welcome to whats-the-move!");
+}
+</script>
+
 </head>
 
 <body>
+	
+
 {{>header}}  
 {{>EntryFields}}
 {{LeftSidebar}}
+<button onclick="myFunction()">Try it</button>
 </body>
+
 
 <template name="hello">
   <h1>Hello, World!</h1>
