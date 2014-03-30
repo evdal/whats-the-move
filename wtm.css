@@ -1,1 +1,5 @@
 /* CSS declarations go here */
+body {
+	color:white;font-family:arial;font:Arial Black;
+}
+*{background-color:black;}
