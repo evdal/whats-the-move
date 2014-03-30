@@ -4,7 +4,7 @@ body {color:white;font-family:arial;font:Arial Black;font-size:50px;}
 *{background-color:transparent;}
 
 h1 {color:white;font-family:arial;font:Arial Black;}
-div{background-color:white;}
+
 
 #link{
 	border-color:red;
@@ -42,5 +42,8 @@ div.transbox
 	opacity: 0.5;
 	text-decoration:bold;
 	text-color:black;
+}
+table{
+	color:black;
 }
 
