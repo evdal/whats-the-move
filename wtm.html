@@ -37,11 +37,14 @@ body {background:#eeefff url(http://rsfireworks.net/wp-content/uploads/2013/04/f
 
 {{>header}}  
 {{>EntryFields}}
-{{LeftSidebar}}
-<button onclick="jumptohomepage()">Create Event!</button>
-<INPUT name="pclog" type="button" value="Bing Search" onClick="location.href='http://www.bing.com'">
+{{>LeftSidebar}}
+
 </body>
 
+<template name="LeftSidebar">
+	<button onclick="jumptohomepage()">Create Event!</button>
+	<INPUT name="pclog" type="button" value="Bing Search" onClick="location.href='http://www.bing.com'">
+</template>
 
 <template name="hello">
   <h1>Hello, World!</h1>
