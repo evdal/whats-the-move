@@ -24,7 +24,7 @@ window.location.href = "homepage.html";
 
 
 	<style type="text/css">
-body {background:#eeefff url(http://4.bp.blogspot.com/-rEqVgkdnuxE/TWd6Fm6EWtI/AAAAAAAABSc/cWCehI51v_Y/s1600/red_rose_flower3.jpg) no-repeat 0 0; }
+body {background:#eeefff url(http://rsfireworks.net/wp-content/uploads/2013/04/fireworks.jpg) no-repeat 0 0; }
 </style>
 
 
@@ -34,12 +34,11 @@ body {background:#eeefff url(http://4.bp.blogspot.com/-rEqVgkdnuxE/TWd6Fm6EWtI/A
 
 
 <body>
-	
 
 {{>header}}  
 {{>EntryFields}}
 {{LeftSidebar}}
-<button onclick="jumptohomepage()">Submit!</button>
+<button onclick="jumptohomepage()">Create Event!</button>
 <INPUT name="pclog" type="button" value="Bing Search" onClick="location.href='http://www.bing.com'">
 </body>
 
@@ -51,13 +50,13 @@ body {background:#eeefff url(http://4.bp.blogspot.com/-rEqVgkdnuxE/TWd6Fm6EWtI/A
 </template>
 
 <template name="header">
-	<h1> WHAT'S THE MOVE? </h1>
+	<h1 style="text-align: center;"> WHAT'S THE MOVE? </h1>
 </template>
 
 <template name="EntryFields">
 	<form>
 	<div> 
-		<table>
+		<table align=center>
 		<tr><td>Name:</td><td> <input type=text name="Name"><br></td></tr>
 		<tr><td>Event Name:</td><td> <input type="text" name="EventName"></td><br></tr>
 		<tr><td>Event Description:</td><td> <input type="text" name="EventDescription"></td><br></tr>
@@ -67,6 +66,6 @@ body {background:#eeefff url(http://4.bp.blogspot.com/-rEqVgkdnuxE/TWd6Fm6EWtI/A
 </div>
 	</form>
 	<div id="link">
-		<p>Placeholder text</p>
+		<a href="www.com/friends">Friends' Moves</a>
 	</div>
 </template>
