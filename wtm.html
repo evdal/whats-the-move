@@ -23,7 +23,7 @@ window.location.href = "homepage.html";
 
 
 	<style type="text/css">
-body {background:#eeefff url(http://rsfireworks.net/wp-content/uploads/2013/04/fireworks.jpg) no-repeat 0 0; }
+body {background:#eeefff url(http://rsfireworks.net/wp-content/uploads/2013/04/fireworks.jpg) no-repeat 0 0; background-size:cover;}
 </style>
 </head>
 
@@ -46,19 +46,21 @@ body {background:#eeefff url(http://rsfireworks.net/wp-content/uploads/2013/04/f
 </template>
 
 <template name="header">
-	<h1 style="text-align: center;"> <strong>WHAT'S THE MOVE? </strong></h1>
+	<h1 style="text-align: center; text-size: 200px"><strong>WHAT'S THE MOVE?</strong></h1>
 </template>
 
 <template name="EntryFields">
 	<form>
 	<div> 
-		<table align=center>
-		<tr><td>Name:</td><td> <input type=text name="Name"><br></td></tr>
+		<div class="transbox">
+		<table align=center width=1000 height=300>
+		<tr><td>Name:</td><td> <input type=text name="Name"></td></tr><br>
 		<tr><td>Event Name:</td><td> <input type="text" name="EventName"></td><br></tr>
 		<tr><td>Event Description:</td><td> <input type="text" name="EventDescription"></td><br></tr>
 		<tr><td>Start Time:</td><td> <input type="text" name="StartTime"></td></tr><br>
 		<tr><td>Stop Time:</td><td> <input type="text" name="StopTime"></td></tr>
 	</table>
+</div>
 </div>
 	</form>
 	<div id="link">
